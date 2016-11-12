@@ -4,22 +4,55 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-    <title>Boostrap Starter Page</title>
+    <title>Jorge Monge - Module 3</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
 <body>
+  <header>
+    <nav id="navigationBar" class="navbar navbar-inverse">
+      <div id="topNavBar" class="container">
+        <div class="navbar-header">
+          <a id="brandName" class="navbar-brand pull-left" href="index.html">Food, LLC</a>    
+          <button id="myNavButton" type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#myNavbarMenu" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div> <!-- navbar-header ends -->
+      </div> <!-- container ends -->
+      <div id="myNavbarMenu" class="collapse navbar-collapse">
+        <ul id="menuItems" class="nav navbar-nav">
+          <li class="menuItem hidden-lg hidden-md hidden-sm"><a id="menuNav1" href="#">Chicken</a></li>
+          <div class="myHorizRule hidden-lg hidden-md hidden-sm"></div>
+          <li class="menuItem hidden-lg hidden-md hidden-sm"><a id="menuNav2" href="#">Beef</a></li>
+          <div class="myHorizRule hidden-lg hidden-md hidden-sm"></div>
+          <li class="menuItem hidden-lg hidden-md hidden-sm"><a id="menuNav3" href="#">Sushi</a></li>
+        </ul>
+      </div>
+    </nav> <!-- Navbar ends -->
+  </header>
+  <h1 id="mainTitle" class="text-center">Our Menu</h1>
+  <div class="container">
+    <div id="menuItem_Chicken" class="row col-lg-12 col-md12 col-sm-12 col-xs-12">
+      <h2 id="menuItemTitle1" class="text-center">Chicken</h2>
+      <h2 id="menuItemTitle1Overlay" class="text-center">Chicken</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur congue ornare fringilla. Maecenas sed est magna. Donec metus dui, luctus in maximus quis, laoreet id nisi. Morbi non felis neque. In molestie, lectus nec cursus semper, ante nisi tincidunt leo, et venenatis odio lectus ac lectus. Aliquam massa dolor, elementum ut sem eu, ultrices scelerisque tortor. Aliquam tincidunt mauris id ipsum porta pharetra.
 
-  <h1>Hello Coursera!</h1>
+Proin dapibus magna orci, ultricies suscipit sem facilisis ut. Donec vestibulum lacus fermentum ex lobortis, ut imperdiet odio sagittis. Duis nisl magna, lobortis id magna a, faucibus pulvinar mi. Sed commodo leo justo. Aenean et mi at metus cursus vestibulum sed ac lorem. Suspendisse et accumsan leo, eu finibus libero. Duis nec tellus ac tortor dapibus efficitur hendrerit nec elit. Nam sit amet sem ac nulla finibus hendrerit. Cras porttitor nulla vitae justo feugiat, et bibendum nisi suscipit. Sed massa lacus, faucibus sed ultricies vitae, tristique vel urna. Donec felis dolor, mollis quis consequat et, sagittis ac mi. Nulla et tempor diam. Sed lectus lorem, blandit eu lacus quis, rutrum eleifend neque.
 
+Nunc efficitur tempus lorem. Cras mollis sem quis sem porttitor, a egestas enim iaculis. Maecenas rutrum malesuada turpis at ornare. Donec vel quam at justo volutpat condimentum ut vel ante. Ut sit amet nisi vel erat dignissim tempus vitae at sapien. Mauris tristique eros mauris, quis ornare nisi consectetur eu. Fusce nisl nulla, tempor ut porttitor eget, commodo ac erat. Aliquam eu interdum nunc.
+
+Integer vel magna non mauris vestibulum feugiat eget mollis ex. Vestibulum tempor tortor eget sapien sagittis, eget bibendum ante posuere. Fusce imperdiet ex ipsum, convallis tempus ex cursus eu. Nam pretium id augue eleifend elementum. Nam molestie cursus lectus, non egestas nisi ultricies quis. Vivamus in urna at leo fringilla auctor. Maecenas ut porttitor ipsum, vel molestie nibh. Fusce congue ante augue, eu ullamcorper lectus pretium vel. Nam viverra tortor quis nisi tempus, ut ullamcorper ligula lacinia. Nulla facilisi. Proin scelerisque dui magna, non fringilla leo rutrum at. Pellentesque tincidunt purus ut erat commodo sollicitudin. Vestibulum in orci eget nibh congue iaculis. Etiam ac lobortis lacus. In quis magna sit amet mi placerat aliquam. Cras non porta nibh.
+
+Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nunc faucibus volutpat volutpat. Sed condimentum vel mauris nec sagittis. Morbi erat metus, facilisis in dolor ut, condimentum auctor orci. Vestibulum porta nibh vel eros tincidunt, quis viverra sapien imperdiet. Mauris pretium odio ac velit lobortis, vitae finibus mi fermentum. Nunc a lacus non odio dignissim tempor ac a sapien. Praesent tellus est, dictum vitae leo eu, interdum tempor ex. Morbi vitae nulla cursus, tincidunt libero eu, tincidunt diam. Quisque malesuada commodo diam sed porta. Curabitur ut molestie nisi, eu rhoncus arcu. Cras et placerat arcu, in semper dui. Suspendisse porttitor felis quis quam cursus, eget rutrum dolor convallis.
+
+Nunc commodo posuere maximus. Cras nec porttitor lacus. Etiam tortor dui, ultrices id mollis vel, euismod eget diam. In at sem eu nunc viverra laoreet et nec tellus. Donec fermentum erat sed metus facilisis, sit amet vestibulum odio pellentesque. Morbi in pulvinar urna. Proin sed risus nunc. Ut vitae dapibus libero. Nulla nec nisi metus.</p>
+      
+    </div>
+  </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

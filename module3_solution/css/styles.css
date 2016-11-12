@@ -1,0 +1,102 @@
+/*body {
+	background-color: olive;
+}*/
+/*#navigation-bar {
+	background-color: salmon;
+}
+a#brand-name {
+	color: red;
+}*/
+#topNavBar {
+	border-bottom-width: 20px;
+	border-bottom-color: blue;
+}
+#navigationBar {
+	background-image: url("../images/image1.jpg");
+	border-radius: 0;
+	border-width: 0;
+	border-bottom-width: 1px;
+}
+#brandName {
+	color: white;
+	font-family: 'Bangers', cursive;
+	font-size: 4em;
+	text-shadow: 3px 3px 10px black;
+	opacity: 1;
+	margin-bottom: 15px;
+}
+#myNavButton {
+    border-color: white;
+    background-color: rgba(255,255,255,0.15);
+    /*box-shadow: 0 0 100px black, inset 0 0 10px white;*/
+}
+#myNavButton:hover {
+	background-color: rgba(0,0,0,0.4);
+    /*box-shadow: 0 0 0;
+    border-width: 3px;*/
+}
+#myNavButton .icon-bar {
+	background-color: white;
+}
+/*#myNavButton:hover .icon-bar {
+    opacity: 1;
+    border-width: 3px;
+    background-color: red;
+}*/
+#myNavbarMenu {
+	background: linear-gradient(to right, rgba(0,0,0,0.85), rgba(85,107,47,0.6)); /*Standard*/
+}
+#menuNav1, #menuNav2, #menuNav3 {
+    color: white;
+    text-shadow: 2px 2px 10px black;
+	font-size: 1.5em;
+}
+.myHorizRule {
+	background: linear-gradient(to right, rgba(255,255,255,0.5), rgba(85,107,47,0.9));
+	height: 1px;
+}
+h1#mainTitle {
+	font-family: 'Bangers', cursive;
+	font-size: 4em;
+	color: #314f28;
+	margin: 30px;
+}
+div#menuItem_Chicken {
+	float: none;
+	width: 90%;
+	margin: auto;
+	margin-bottom: 5%;
+	margin-top: 0;
+	border-style: solid;
+	border-width: 1px;
+	border-color: olive;
+}
+
+h2#menuItemTitle1 {
+	position: absolute;
+	width: 100%;
+	margin-left: -15px;
+	font-family: 'Bangers', cursive;
+	color: transparent;
+	margin-top: 0;
+	padding: 10px;
+	text-shadow: 5px 5px 30px #314f28;
+	background-image: url("../images/image1.jpg");
+}
+h2#menuItemTitle1Overlay {
+	position: absolute;
+	width: 100%;
+	color: white;
+	margin-top: 0;
+	padding: 10px;
+	font-family: 'Bangers', cursive;
+	text-shadow: 2px 2px 2px black;
+	margin-left: -15px;
+	background: linear-gradient(to right, rgba(0,0,0,0.85), rgba(0,0,0,0)) 
+}
+#menuItem_Chicken p {
+	font-family: 'Bangers', cursive;
+	font-size: 1.5em;
+	padding: 10px;
+	padding-top: 50px;
+}
